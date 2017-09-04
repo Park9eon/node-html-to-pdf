@@ -1,0 +1,7 @@
+{
+  "name": "noname",
+  "version": "0.0.1",
+  "scripts": {
+    "capture": "phantomjs capture_script.js"
+  }
+}

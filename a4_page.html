@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body {
+            margin: 0;
+            -webkit-print-color-adjust: exact;
+            background-color: rgba(0, 0, 0, .1);
+        }
+        @media print {
+            .page {
+                background-color: rgba(255, 0, 0, .2);
+                page-break-after: always;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="page">
+        페이지 1
+    </div>
+    <div class="page">
+        페이지 2
+    </div>
+    <div class="page">
+        페이지 3
+    </div>
+</body>
+</html>
