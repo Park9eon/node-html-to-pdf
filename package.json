@@ -1,7 +1,13 @@
 {
-  "name": "noname",
+  "name": "capture",
   "version": "0.0.1",
   "scripts": {
-    "capture": "phantomjs capture_script.js"
+    "start": "npm run chrome && npm run phantom",
+    "chrome": "node capture_by_chrome.js",
+    "phantom": "phantomjs capture_by_phantom.js"
+  },
+  "dependencies": {
+    "phantomjs": "^2.1.7",
+    "puppeteer": "^1.0.0"
   }
 }
